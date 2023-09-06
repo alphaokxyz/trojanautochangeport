@@ -1,0 +1,10 @@
+[Unit]
+Description=ChangePort Service for Trojan
+
+[Service]
+ExecStart=/file/changeport  # 指定你编译后的Go程序的完整路径
+Restart=on-failure
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
