@@ -63,7 +63,7 @@ type MySQLConfig struct {
 func main() {
 	configFile := "/usr/local/etc/trojan/config.json"
 	logFile := "/file/log/log.txt"
-	scheduleTime := time.Date(time.Now().Year(), time.Now().Month(), time.Now().Day(), 7, 0, 0, 0, time.Local)
+	scheduleTime := time.Date(time.Now().Year(), time.Now().Month(), time.Now().Day(), 6, 0, 0, 0, time.Local)
 	portIncrement := 1
 
 	for {
